@@ -1,1 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f6f2f0, #eae3e9);
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+header {
+  background: #fff8f0;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #444;
+}
+
+h1 span {
+  color: #ff7b8b;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+main {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cta button {
+  background: #ffb3c6;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.cta button:hover {
+  background: #ff8ca2;
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlights li {
+  margin: 0.5rem 0;
+  background: #ffffffaa;
+  padding: 1rem;
+  border-left: 5px solid #ffc6d9;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.carousel {
+  margin-top: 3rem;
+}
+
+.note-card {
+  background: #fff;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  font-style: italic;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fafafa;
+  color: #999;
+  font-size: 0.9rem;
+}
