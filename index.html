@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="InsideTennis Mental Notes — портал для родителей. Доступ к AI, книгам, аналитике и заботе о ребёнке через игру.">
+  <title>InsideTennis [Mental Notes]</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="llama.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
 
+  <header class="header">
+    <img src="assets/logo.svg" alt="InsideTennis Logo" class="logo">
+    <h1>InsideTennis <span>[Mental Notes]</span></h1>
+    <p class="tagline">Место, где родители начинают понимать</p>
+  </header>
+
+  <main>
+    <section class="cta">
+      <h2>Задайте вопрос нашей Ламе</h2>
+      <button id="openChat">Спросить у Ламы 🦙</button>
+    </section>
+
+    <section class="highlights">
+      <h2>Что вы получите:</h2>
+      <ul>
+        <li>🧠 AI-ассистент MentaLLama</li>
+        <li>📘 Полная библиотека Mental Notes</li>
+        <li>🎁 Скидки на книги, мерч и одежду</li>
+        <li>🎮 Инвайт ребёнка в психологическую игру</li>
+      </ul>
+    </section>
+
+    <section class="carousel">
+      <h2>Избранные заметки Mental Notes</h2>
+      <div class="note-card">"You didn't lose. You just realized how deeply you cared."</div>
+      <div class="note-card">"The brain wants answers. The heart wants space."</div>
+      <div class="note-card">"Let the pain breathe — it’s part of the path."</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 InsideTennis | Mental Notes для родителей</p>
+  </footer>
+
+  <!-- Модалка с чатом Ламы -->
+  <div id="chatModal" class="modal">
+    <div class="modal-content">
+      <span id="closeChat" class="close">&times;</span>
+      <iframe 
+        src="https://huggingface.co/spaces/Siniiiza/Mentalllama" 
+        frameborder="0" 
+        allow="clipboard-write"
+        title="Mental LLaMA Assistant"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
